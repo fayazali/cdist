@@ -1,0 +1,2 @@
+echo "sed -i -e 's/80/8080/g' /etc/nginx/sites-enabled/default"
+echo "service nginx reload"
