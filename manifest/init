@@ -1,3 +1,9 @@
 __file /etc/cdist-configured
-#__lampstack
-__nginx
+#__lampstack  --state absent
+__nginx --state present
+
+__directory /tmp/cdist --state present
+
+__package tree --state installed
+
+
